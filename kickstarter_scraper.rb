@@ -8,13 +8,13 @@ def create_project_hash
   kickstarter = Nokogiri::HTML(html)
 
   # write your code here
-  attr_accessor :image_link, :description, :location, :percent_funded
-
-  @@projects = {}
-
-  def initialize
-    self => {}
-    @@projects << self
-  end
+  # attr_accessor :image_link, :description, :location, :percent_funded
+  #
+  # @@projects = {}
+  #
+  # def initialize
+  #   self => {}
+  #   @@projects << self
+  # end
 
 end
