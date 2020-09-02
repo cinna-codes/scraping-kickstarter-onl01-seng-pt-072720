@@ -12,5 +12,6 @@ def create_project_hash
   # write your code here
     # :image_link, :description, :location, :percent_funded
 
-
 end
+
+create_project_hash
